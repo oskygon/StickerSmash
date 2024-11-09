@@ -1,5 +1,6 @@
-import { Link } from "@react-navigation/native";
+// import { Link } from "@react-navigation/native"; usamos to en lugar de href
 import { Text, View, StyleSheet, } from "react-native";
+
 
 export default function Index() {
   return (
@@ -8,7 +9,7 @@ export default function Index() {
 
       <Text style={styles.text}>Hello StickerSmash</Text>
       
-      <Link to="/about" style={styles.button}> Go to about screen</Link>
+    
     
  
     </View>

@@ -5,8 +5,7 @@ export default function AboutScreen() {
     <View 
       style={styles.container}>
       <Text style={styles.text}>About screen</Text>
-      <Link to="/index" style={styles.button}> Go to index screen</Link>
-
+      
     </View>
   );
 }
